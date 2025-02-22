@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>理科　重要用語確認テスト　練習版　TOP</title>
+<title>理科 重要用語確認テスト THE PRACTICE EDITION TOP</title>
 <meta charset="UTF-8">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -9,38 +9,45 @@
 <link rel="icon" href="favicon.ico">
 </head>
 <body>
-<h1>理科　重要単語確認テスト</br>練習版</h1>
+<h1 id="accent" style="height: 220px;">理科　重要単語確認テスト</br>~THE PRACTICE EDITION~</h1>
 
-<hr>
-
-<p>理科の100問テスト対策のために作成しました。<br>現在、発表済の一・ニ年生版と問題用紙の素材を揃えています。<br>ぜひ、テスト対策にご活用ください。<br>また、問題・回答の誤字・脱字やバグ等があった際にはTanizawaまでどうぞ。</p>
+<p id="p1">理科の100問テスト対策のために作成しました。<br>現在、発表済の一・ニ年生版と問題用紙、計算問題と化学式の解法説明を揃えています。<br>ぜひ、テスト対策にご活用ください。<br>また、問題・回答の誤字・脱字やバグ等があった際にはTanizawaまでどうぞ。</p>
 
 <a style="display: inline-block;" href="https://science.fuji-tools.f5.si/first-year-edition">一年生練習版</a>
-<br>
-<br>
-<br>
+<br><br><br>
 <a style="display: inline-block;" href="https://science.fuji-tools.f5.si/second-year-edition">ニ年生練習版</a>
-<br>
-<br>
-<br>
-<a style="display: inline-block;">三年生練習版</a>
-<br>
-<br>
-<br>
+<br><br><br>
+<a style="display: inline-block;">三年生練習版 (未実装です。)</a>
+<br><br><br>
 
 <hr>
 
+
+<a style="display: inline-block;" href="https://science.fuji-tools.f5.si/solution">計算問題・化学反応式の問題の解き方。</a>
+<br><br><br>
+<a style="display: inline-block;" href="https://science.fuji-tools.f5.si/memo">その他・memo</a>
+<br><br><br>
 <a style="display: inline-block;" href="answer-sheet.pdf" download="100問テスト用回答用紙.pdf">回答用紙のダウンロードはこちらから。</a>
 
-<p>released by Tanizawa.</p>
+<br><br>
+
+<div id="accent">
+<p id="p1"><br>リロードするたびに問題の並びが変わってしまうため、<br>WebアーカイブやPDFでの保存で問題を保存しておくことを強く推奨します。<br><br>Released by Tanizawa.</p>
+<p id="p2">These tests are created by Rei Murakami.<br>(Fuji-Junior-High-School)</p>
+</div>
 
 <style>
 h1 {
   font-size: 75px;
+  font-weight: 900;
 }
 
-p {
+#p1 {
   font-size: 25px;
+}
+
+#p2 {
+  font-size: 11.3px;
 }
 
 body,button {
@@ -51,24 +58,32 @@ body,button {
 }
 
 hr {
-  border-top: 2px solid #000;
+  border-top: 5px solid #202020;
   margin-bottom: 55px;
 }
 
 a {
-  background-color: #fff;
-  color: #000;
+  border-radius: 50px;
+  background-color: #202020;
+  color: #fff;
   padding: 10px 10px;
   text-decoration: none;
   font-size: 25px;
-  border: solid 2px #000;
+  border: solid 5px #202020;
   align-content: center;
   width: 500px;
+  transition: all 0.4s ease;
 }
 
 a:hover {
-  color: #000;
-  background-color: #dcdcdc;
+  color: #202020;
+  background-color: #fff;
+}
+
+#accent {
+  height: 250px;
+  background-color: #202020;
+  color: #fff;
 }
 </style>
 </body>
